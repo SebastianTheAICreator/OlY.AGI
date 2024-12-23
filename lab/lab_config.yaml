@@ -1,0 +1,11 @@
+experiment_tracking:
+  enabled: true
+  metrics_db: sqlite:///lab/results/metrics.db
+  storage: lab/results
+logging:
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  level: INFO
+resources:
+  distributed: true
+  max_gpu_memory: 40GB
+  num_gpus: 8

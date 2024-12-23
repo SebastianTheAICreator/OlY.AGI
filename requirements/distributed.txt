@@ -1,0 +1,5 @@
+-r base.txt
+horovod>=0.28.0
+ray>=2.5.0
+dask>=2023.5.0
+pytorch-lightning>=2.0.0

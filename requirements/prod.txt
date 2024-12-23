@@ -1,0 +1,5 @@
+-r base.txt
+gunicorn>=20.1.0
+uvicorn>=0.22.0
+fastapi>=0.100.0
+prometheus-client>=0.17.0
